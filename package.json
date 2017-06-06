@@ -1,0 +1,25 @@
+{
+  "name": "kodilla-zadanie-8.2",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annmarin/modul-8/tree/zadanie8.3 "
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "Anna Bródka",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
