@@ -1,12 +1,11 @@
-// scripts.js
+// calculating a field of an isosceles triangle
 
-var name = prompt('What\'s your name?');
-// alert('Hello ' + name + '!');
-console.log('Hello ' + name + '!');
+alert('Hello, let\'s calculate an isosceles triangle area!');
 
-// checking the variable
-var variable = 'How are you?';
-console.log(variable);
+var a = prompt('Enter the length of the triangle base.'),
+	h = prompt('We also need the height of our triangle.'),
+	triangleArea = a*h/2;
 
-/* the way of commenting
- is the same like for css */
+alert('The area of our triangle is ' + triangleArea + '!');
+
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
