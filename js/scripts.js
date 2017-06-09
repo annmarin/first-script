@@ -1,11 +1,21 @@
-// calculating a field of an isosceles triangle
+// if, short if
 
-alert('Hello, let\'s calculate an isosceles triangle area!');
+alert('Hello, help us to do some maths: (a*a)+(2*a*b)-(b*b)=?');
 
-var a = prompt('Enter the length of the triangle base.'),
-	h = prompt('We also need the height of our triangle.'),
-	triangleArea = a*h/2;
+var a = prompt('Enter value a'),
+    b = prompt('Then put value b'),
+    value = (a * a) + (2 * a * b) - (b * b);
 
-alert('The area of our triangle is ' + triangleArea + '!');
+alert('Check console for results!');
 
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+console.log('The result of our operation is ' + value + '.');
+
+if (value > 0) {
+    console.log('Positive result!');	
+} else if (value < 0) {
+    console.log('Negative result!');	
+}
+
+(value == 0) ? console.log('The result is 0!') : console.log('The result is different to 0!');
+
+
